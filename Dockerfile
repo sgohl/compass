@@ -1,6 +1,5 @@
 FROM ruby
 RUN gem install compass
-COPY config.rdb /compass/
+COPY config.rb /compass/
 WORKDIR /compass
 CMD compass watch --poll
-
