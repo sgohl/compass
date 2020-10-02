@@ -4,7 +4,7 @@ view `config.rb` for default options. you may mount your own into `/compass/conf
 
 ### volume mounts:
 
-- scss src folder: /compass
+- scss-src: /compass
 - out-css: /compass/css
 
 example:
